@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="teamtype">An application of :</string>
+    <string name="teamname">Thibault Douilly, Marc Barat, Thibault Brun, Maelle Cabot, Tanios Faddoul, Joan Goyeau (missing)</string>
+    <string name="home">Home</string>
+    <string name="layers">Layers</string>
+    <string name="kilometersquater">km²</string>
+    <string name="kilometers">km</string>
+    <string name="meters">m</string>
+    <string name="meterspersecond">m/s</string>
+    <string name="degrees">°</string>
+        <string name="stopPolygonTrack">Stop the polygon track</string>
+    
+    <string name="app_name">Smart</string>
+    <string name="menu_settings">Settings</string>
+    <string name="infoSettings">Information parameters</string>
+    <string name="latitude">Latitude </string>
+    <string name="longitude">Longitude </string>
+    <string name="altitude">Altitude </string>
+    <string name="accuracy">Accuracy </string>
+    <string name="speed">Speed </string>
+    <string name="bearing">Bearing </string>
+    <string name="centerMap">Centering map</string>
+    <string name="findGPS">Finding GPS signal..</string>
+    <string name="gpsSettings">GPS settings</string>
+    <string name="gpsMessage">GPS is required.\n
+        Please activate it.\n--> Settings Menu.</string>
+    <string name="cancel">Cancel</string>
+    <string name="validate">Validate</string>
+    <string name="hideInfoZone">Hide information</string>
+    <string name="showInfoZone">Show information</string>
+    <string name="exit">Exit ?</string>
+    <string name="exitMsg">Quit SMART ?</string>
+    <string name="exitMsgWithMission">Quit SMART ? Current mission will be stopped.</string>
+    <string name="help">Help</string>
+    <string name="helpLayer">Check/Uncheck a layer : Show/Hide the layer.\nSlide to the left/right : Remove the layer.\nDrag and Drop : Organize layers.\nSelect symbology : Modify symbology.\nLong press on a layer : Zoom at a layer\'s extent.</string>
+    <string name="helpMap"> Pinch/double tap : Zoom in.\n
+         Spread the screen : Zoom out .\nSelect target icon : Center the map on current location.</string>
+    <string name="helpMenu">Long press on a menu entry : Add a shortcut to the shortcut bar on map view</string>
+    <string name="about">About</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Menu</string>
+    <string name="option">Options</string>
+    <string name="addShortcut">Add shortcut ?</string>
+    <string name="removeShortcut">Remove shortcut</string>
+    <string name="symbo_desc">Symbology</string>
+    <string name="delete">Delete</string>
+    <string name="deleteLayer">Remove this layer ?</string>
+    <string name="warning">Warning</string>
+    <string name="visibilityLayer">Cannot modify the visibility of this layer : Linked to a started mission.</string>
+    <string name="deleteLayerFalse">Cannot remove this layer : Linked to a mission/track started.</string>
+    <string name="shouldRestartApp">Restart to apply changes.</string>
+    <string name="error">Error</string>
+    <string name="kmlParseError">Error. Kml file is invalid</string>
+    <string name="kmlReadError">Error. Kml file can\'t be read</string>
+    <string name="kmlImport">Kml layer import : success</string>
+    <string name="geotiffReadError">Error. The GeoTiff repertory can\'t be read</string>
+    <string name="geotiffImport">GeoTiff layer import : success</string>
+    <string name="shpImport">ShapeFile layer import : success</string>
+    <string name="wms_success">WMS layer loading : success</string>
+    <string name="layerAlreadyExists">Layer already exists</string>
+    <string name="shortcut_remove">Shortcut was removed</string>
+    <string name="pleaseSelectMission">Please select a mission</string>
+    <string name="noGeometryInMission">Export failed : no geomtry to export</string>
+    <string name="noMissionAvailable">No available mission</string>
+    <string name="unableLoadPref">Unable to load the preferences</string>
+    <string name="area_measure_start">Area measure started.\n Draw a polygon.</string>
+    <string name="directory">Select current directory</string>
+    <string name="alpha">Transparency</string>
+    
+    <string-array name="items">
+        <item>Start mission</item>
+        <item>Create form</item>
+        <item>Point survey</item>
+        <item>Position survey</item>
+        <item>Line survey</item>
+        <item>Polygon survey</item>
+        <item>Polygon track survey</item>
+        <item>Track GPS</item>
+        <item>KML/SHP import</item>
+        <item>GeoTIFF import</item>
+        <item>WMS import</item>
+        <item>Measure distance</item>
+        <item>Measure area</item>
+        <item>Export mission</item>
+        <item>Export form</item>
+        <item>Delete mission</item>
+    </string-array>
+
+    <string name="stopMission">Stop mission</string>
+    <string name="stopGPSTrack">Stop track</string>
+
+    <string-array name="typeFields">
+        <item>Text</item>
+        <item>Numeric</item>
+        <item>Boolean</item>
+        <item>List</item>
+        <item>Picture</item>
+        <item>Height Measure</item>
+    </string-array>
+
+    <string name="title_activity_layers">Layers </string>
+    <string name="title_activity_browser">Browser</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted</string>
+    <string name="choose_file">Select a file</string>
+    <string name="error_selecting_file">Error selecting File</string>
+    <string name="zoomIn">Zoom in even if tiles are missing?</string>
+    <string name="zoomOut">Zoom out even if tiles are missing?</string>
+    <string name="title_activity_create_form">Create a form</string>
+    <string name="zoomTitle">Tiles missing for this zoom level</string>
+    <string name="missionName">Name </string>
+    <string name="selectForm">Form </string>
+    <string name="formBrowser">Select form file</string>
+    <string name="mission">Mission</string>
+    <string name="export_mission">Export mission</string>
+    <string name="delete_mission">Delete mission</string>
+    <string name="delete_survey">Delete survey</string>
+    <string name="export_form">Export Form</string>
+    <string name="defaultForm">Default</string>
+    <string name="othertForm">Other</string>
+    <string name="missionExported">Mission exported</string>
+    <string name="polygon_track_text_name">Warning :   polygon survey is still possible but polygons cannot be edited before stopping the track.</string>
+    <string name="track_text_name">Enter a name for this track</string>
+    <string name="track_text_param">Enter a value for the mode selected </string>
+    <string name="track_radio_time">Time (s)</string>
+    <string name="track_radio_distance">Distance (m)</string>
+    <string name="create_button">Create</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="track_name_missing">Must enter a name for the track</string>
+    <string name="track_param_missing"> Must enter a param for the mode selected</string>
+    <string name="track_param_false">Param must be an integer</string>
+    <string name="track_error">Error while stopping track</string>
+    <string name="polygon_track_error">Error while stopping mission. A polygon track is running</string>
+    <string name="Coms">Comments</string>
+    <string name="ComsDefault">Default field : Comments</string>
+    <string name="CreateForm">Create Form</string>
+    <string name="AddField">Add a new field</string>
+    <string name="title_activity_add_fieldto_form">Add a field to the form</string>
+    <string name="Name">Name</string>
+    <string name="List">List</string>
+    <string name="form_title">Form</string>
+    <string name="MeasureTitle">Measure</string>
+    <string name="MeasureRelative">Relative to your position</string>
+    <string name="MeasureAbsolute">Beetween two points on the map</string>
+    <string name="MeasureRelativeText">Select a point on the map</string>
+    <string name="MeasureAbsoluteText">Select two points on the map</string>
+    <string name="field_name_already_used">Name already used</string>
+    <string name="field_text">Text field : </string>
+    <string name="field_picture">Picture field : </string>
+    <string name="field_list">List field : </string>
+    <string name="field_boolean">Boolean field : </string>
+    <string name="field_numeric">Numeric field : </string>
+    <string name="field_height">Height field : </string>
+    <string name="field_error_min_max">Error : Min > Max</string>
+    <string name="invalid">Invalid</string>
+    <string name="sure">Delete mission(s) ?</string>
+    <string name="sureSurvey">Delete survey ?</string>
+    <string name="result">Result</string>
+    <string name="menuFunctionalitiesTitle">Functionalities menu</string>
+    <string name="menuLayersTitle">Manage layers</string>
+    <string name="CsvFormat">CSV</string>
+    <string name="KmlFormat">KML</string>
+    <string name="symbo">Symbology</string>
+    <string name="color">Color</string>
+    <string name="taille">Size</string>
+    <string name="form">Shape</string>
+    <string name="wmsurl">Enter WMS URL </string>
+    <string name="wmstitle">Import WMS Layer </string>
+    <string name="wms_error">Error while importing wms : url is not reachable</string>
+    <string name="wms_name">Enter a name for WMS Layer</string>
+    <string name="editInfo">Edit information are</string>
+    <string name="displayLatitude">Display latitude</string>
+    <string name="displayLongitude">Display longitude</string>
+    <string name="displayAltitude">Display altitude</string>
+    <string name="displayAccuracy">Display accuracy</string>
+    <string name="displayBearing">Display bearing</string>
+    <string name="displaySpeed">Display speed</string>
+    <string name="noMissionInProgress">Impossible : no mission in progress</string>
+    <string name="missionStop">Mission stopped</string>
+    <string name="missionStart">Mission started</string>
+    <string name="missionDelete">Delete Mission</string>
+    <string name="title_activity_height">Measure height</string>
+    <string name="user_height_text">Enter the height of the Point Of View in cm (usually your height minus 15 cm)</string>
+    <string name="track_title">Create a GPS Track</string>
+    <string name="polygon_track_title">Create a Polygon Track</string>
+    <string name="height_title">POV Height</string>
+    <string name="height_field_missing">Height value must be set</string>
+    <string name="height_bottom_instructions">Align  eyes, smartphone and object\'s bottom side in a straight line.\nThen click on the screen.</string>
+    <string name="height_top_instructions">Align  eyes, smartphone and object\'s top side in a straight line.\nThen click on the screen again.</string>
+    <string name="gpsCompulsory">GPS must be enabled</string>
+    <string name="gpsTrackMessage">Please check the configuration and ensure the GPS is activated.\n
+         This functionality is not available with the GPS disabled.</string>
+    <string name="track_notstarted">Track cannot be started</string>
+    <string name="track_started">Track is started</string>
+    <string name="track_stop">Track is stopped</string>
+    <string name="polygon_track_started">Polygon track is started</string>
+    <string name="polygon_track_stoped">Polygon track is stopped</string>
+    <string name="point_survey">Tap to make a point</string>
+    <string name="line_survey">Tap to make a new point and double-tap to finish the line</string>
+    <string name="polygon_survey">Tap to make a new point and double-tap to close the polygon</string>
+    <string name="tiff_progress">Zipping archive</string>
+    <string name="tiff_progress_title">Please wait</string>
+    <string name="survayError">Error : survey has not been saved</string>
+    <string name="cheatcode1">geom2013</string>
+    <string name="vector_progress">Importing vector data..</string>
+    <string name="vector_progress_title">Please wait</string>
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="ligthTeme">Ligth</string>
+    <string name="darkTeme">Dark</string>
+    <string name="screenOrientation">Orientation</string>
+    <string name="portraitOrientation">Portrait</string>
+    <string name="landscapeOrientation">Landscape</string>
+    <string name="errorShp">Error : Shapefile too big to handle</string>
+    <string name="baseMap">Select the base map</string>
+    
+
+</resources>

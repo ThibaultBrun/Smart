@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoneInfo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:scrollbars="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11000000" >
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:contentDescription="@string/menuFunctionalitiesTitle"
+            android:src="@drawable/homemenu" />
+
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/layers"
+            android:layout_toRightOf="@+id/home"
+            android:fadingEdge="horizontal"
+            android:scrollbars="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/shortcuts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:scrollbars="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <ImageButton
+            android:id="@+id/layers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:contentDescription="@string/menuLayersTitle"
+            android:src="@drawable/layersmenu" />
+    </RelativeLayout>
+
+    <fr.umlv.lastproject.smart.SmartMapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/top" />
+
+    <ImageView
+        android:id="@+id/centermap"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:contentDescription="@string/centerMap"
+        android:src="@drawable/centermap"
+        android:visibility="invisible" />
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#6F000000" >
+
+        <TextView
+            android:id="@+id/findGPS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/findGPS"
+            android:textColor="#FFFFFF" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/latitude"
+                android:text="@string/latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/latitudeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:paddingRight="10dip"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/longitude"
+                android:text="@string/longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dip"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/longitudeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/altitude"
+                android:text="@string/altitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/altitudeValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/accuracy"
+                android:text="@string/accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/accuracyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/bearing"
+                android:text="@string/bearing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/bearingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/speed"
+                android:text="@string/speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/speedValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:visibility="gone" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
